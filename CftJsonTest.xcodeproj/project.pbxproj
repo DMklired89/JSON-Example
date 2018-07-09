@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		E00CE53E20C057F600888DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE53D20C057F600888DAA /* main.m */; };
 		E00CE54120C057F600888DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE54020C057F600888DAA /* AppDelegate.m */; };
-		E00CE54420C057F600888DAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE54320C057F600888DAA /* ViewController.m */; };
 		E00CE54720C057F600888DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00CE54520C057F600888DAA /* Main.storyboard */; };
 		E00CE54920C057F600888DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00CE54820C057F600888DAA /* Assets.xcassets */; };
 		E00CE54C20C057F600888DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00CE54A20C057F600888DAA /* LaunchScreen.storyboard */; };
+		E00CE55720C05BC100888DAA /* EDVNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE55620C05BC100888DAA /* EDVNetworkService.m */; };
+		E00CE55A20C061C200888DAA /* EDVMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE55920C061C200888DAA /* EDVMessages.m */; };
+		E00CE55C20C0635100888DAA /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = E00CE55B20C0635100888DAA /* messages.json */; };
+		E00CE55F20C433DF00888DAA /* EDVMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE55E20C433DF00888DAA /* EDVMessageTableViewController.m */; };
+		E00CE56220C43C0800888DAA /* EDVMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CE56120C43C0800888DAA /* EDVMessageTableViewCell.m */; };
+		E0DE2E7020CAC160005AF5DE /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DE2E6D20CAC160005AF5DE /* facebook.png */; };
+		E0DE2E7120CAC160005AF5DE /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DE2E6E20CAC160005AF5DE /* twitter.png */; };
+		E0DE2E7220CAC160005AF5DE /* vk.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DE2E6F20CAC160005AF5DE /* vk.png */; };
+		E0DE2E7520CD5D1D005AF5DE /* EDVMessageDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DE2E7420CD5D1D005AF5DE /* EDVMessageDetailWebViewController.m */; };
+		E0DE2E7820CEBB8A005AF5DE /* EDVImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DE2E7720CEBB8A005AF5DE /* EDVImageDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,26 @@
 		E00CE53D20C057F600888DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E00CE53F20C057F600888DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E00CE54020C057F600888DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E00CE54220C057F600888DAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E00CE54320C057F600888DAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E00CE54620C057F600888DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E00CE54820C057F600888DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00CE54B20C057F600888DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E00CE54D20C057F600888DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00CE55520C05BC100888DAA /* EDVNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVNetworkService.h; sourceTree = "<group>"; };
+		E00CE55620C05BC100888DAA /* EDVNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVNetworkService.m; sourceTree = "<group>"; };
+		E00CE55820C061C200888DAA /* EDVMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVMessages.h; sourceTree = "<group>"; };
+		E00CE55920C061C200888DAA /* EDVMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVMessages.m; sourceTree = "<group>"; };
+		E00CE55B20C0635100888DAA /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
+		E00CE55D20C433DF00888DAA /* EDVMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVMessageTableViewController.h; sourceTree = "<group>"; };
+		E00CE55E20C433DF00888DAA /* EDVMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVMessageTableViewController.m; sourceTree = "<group>"; };
+		E00CE56020C43C0800888DAA /* EDVMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVMessageTableViewCell.h; sourceTree = "<group>"; };
+		E00CE56120C43C0800888DAA /* EDVMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVMessageTableViewCell.m; sourceTree = "<group>"; };
+		E0DE2E6D20CAC160005AF5DE /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		E0DE2E6E20CAC160005AF5DE /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		E0DE2E6F20CAC160005AF5DE /* vk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vk.png; sourceTree = "<group>"; };
+		E0DE2E7320CD5D1D005AF5DE /* EDVMessageDetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVMessageDetailWebViewController.h; sourceTree = "<group>"; };
+		E0DE2E7420CD5D1D005AF5DE /* EDVMessageDetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVMessageDetailWebViewController.m; sourceTree = "<group>"; };
+		E0DE2E7620CEBB8A005AF5DE /* EDVImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDVImageDetailViewController.h; sourceTree = "<group>"; };
+		E0DE2E7720CEBB8A005AF5DE /* EDVImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDVImageDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +81,14 @@
 		E00CE53B20C057F600888DAA /* CftJsonTest */ = {
 			isa = PBXGroup;
 			children = (
-				E00CE53F20C057F600888DAA /* AppDelegate.h */,
-				E00CE54020C057F600888DAA /* AppDelegate.m */,
-				E00CE54220C057F600888DAA /* ViewController.h */,
-				E00CE54320C057F600888DAA /* ViewController.m */,
-				E00CE54520C057F600888DAA /* Main.storyboard */,
-				E00CE54820C057F600888DAA /* Assets.xcassets */,
-				E00CE54A20C057F600888DAA /* LaunchScreen.storyboard */,
+				E0F2F51D20F3A7C600C39DAC /* App */,
+				E0F2F51C20F3A7B100C39DAC /* Model */,
+				E0F2F51E20F3A7F100C39DAC /* View */,
+				E0F2F51B20F3A77200C39DAC /* Message TableView */,
+				E0F2F51A20F3A72D00C39DAC /* Detail TableView */,
+				E0DE2E6C20CAC131005AF5DE /* Networks Images */,
 				E00CE54D20C057F600888DAA /* Info.plist */,
+				E00CE54820C057F600888DAA /* Assets.xcassets */,
 				E00CE53C20C057F600888DAA /* Supporting Files */,
 			);
 			path = CftJsonTest;
@@ -77,6 +100,68 @@
 				E00CE53D20C057F600888DAA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0DE2E6C20CAC131005AF5DE /* Networks Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0DE2E6D20CAC160005AF5DE /* facebook.png */,
+				E0DE2E6E20CAC160005AF5DE /* twitter.png */,
+				E0DE2E6F20CAC160005AF5DE /* vk.png */,
+			);
+			name = "Networks Images";
+			sourceTree = "<group>";
+		};
+		E0F2F51A20F3A72D00C39DAC /* Detail TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E0DE2E7320CD5D1D005AF5DE /* EDVMessageDetailWebViewController.h */,
+				E0DE2E7420CD5D1D005AF5DE /* EDVMessageDetailWebViewController.m */,
+				E0DE2E7620CEBB8A005AF5DE /* EDVImageDetailViewController.h */,
+				E0DE2E7720CEBB8A005AF5DE /* EDVImageDetailViewController.m */,
+			);
+			name = "Detail TableView";
+			sourceTree = "<group>";
+		};
+		E0F2F51B20F3A77200C39DAC /* Message TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E00CE56020C43C0800888DAA /* EDVMessageTableViewCell.h */,
+				E00CE56120C43C0800888DAA /* EDVMessageTableViewCell.m */,
+				E00CE55D20C433DF00888DAA /* EDVMessageTableViewController.h */,
+				E00CE55E20C433DF00888DAA /* EDVMessageTableViewController.m */,
+			);
+			name = "Message TableView";
+			sourceTree = "<group>";
+		};
+		E0F2F51C20F3A7B100C39DAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E00CE55520C05BC100888DAA /* EDVNetworkService.h */,
+				E00CE55620C05BC100888DAA /* EDVNetworkService.m */,
+				E00CE55820C061C200888DAA /* EDVMessages.h */,
+				E00CE55920C061C200888DAA /* EDVMessages.m */,
+				E00CE55B20C0635100888DAA /* messages.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0F2F51D20F3A7C600C39DAC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E00CE53F20C057F600888DAA /* AppDelegate.h */,
+				E00CE54020C057F600888DAA /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E0F2F51E20F3A7F100C39DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E00CE54520C057F600888DAA /* Main.storyboard */,
+				E00CE54A20C057F600888DAA /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DE2E7220CAC160005AF5DE /* vk.png in Resources */,
 				E00CE54C20C057F600888DAA /* LaunchScreen.storyboard in Resources */,
+				E00CE55C20C0635100888DAA /* messages.json in Resources */,
+				E0DE2E7020CAC160005AF5DE /* facebook.png in Resources */,
+				E0DE2E7120CAC160005AF5DE /* twitter.png in Resources */,
 				E00CE54920C057F600888DAA /* Assets.xcassets in Resources */,
 				E00CE54720C057F600888DAA /* Main.storyboard in Resources */,
 			);
@@ -150,9 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00CE54420C057F600888DAA /* ViewController.m in Sources */,
+				E0DE2E7520CD5D1D005AF5DE /* EDVMessageDetailWebViewController.m in Sources */,
 				E00CE54120C057F600888DAA /* AppDelegate.m in Sources */,
+				E00CE56220C43C0800888DAA /* EDVMessageTableViewCell.m in Sources */,
+				E00CE55720C05BC100888DAA /* EDVNetworkService.m in Sources */,
 				E00CE53E20C057F600888DAA /* main.m in Sources */,
+				E00CE55A20C061C200888DAA /* EDVMessages.m in Sources */,
+				E00CE55F20C433DF00888DAA /* EDVMessageTableViewController.m in Sources */,
+				E0DE2E7820CEBB8A005AF5DE /* EDVImageDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +401,7 @@
 				E00CE55220C057F700888DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
